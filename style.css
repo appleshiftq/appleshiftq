@@ -271,15 +271,13 @@ body {
   }
   @media screen and (max-width: 900px) {
     .icon {
-      max-height: 20%;
+      max-height: 100%;
     }
     nav {
       padding-top: 0;
     }
     .headr {
-      align-items: center;
-      padding-top: 1em;
-      padding-right: .25em;
+      top: 0;
     }
     h1 {
       font-size: 1.3em;
