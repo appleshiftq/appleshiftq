@@ -147,6 +147,10 @@ body {
   align-items: center;
   flex-direction: column;
   }
+  .title a {
+    text-decoration: none;
+    color: white;
+  }
   .headerSpacing {
     margin: 3.5em;
   }
@@ -189,6 +193,17 @@ body {
   p {
     color: white;
     font-size: 20px;
+  }
+  .ulCenter {
+    list-style-type: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+    list-style-type: none;
+    gap: 2rem;
   }
   .vidContainer {
     display: flex;
